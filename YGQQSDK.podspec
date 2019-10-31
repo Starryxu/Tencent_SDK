@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xygkevin/Tencent_SDK.git", :tag => s.version.to_s  }
   s.frameworks              = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries               = 'iconv', 'sqlite3', 'z'
-  s.ios.vendored_frameworks = 'demo/TencentOpenAPI.framework'
+  s.ios.vendored_frameworks = 'framework/TencentOpenAPI.framework'
   s.requires_arc = true
 end
