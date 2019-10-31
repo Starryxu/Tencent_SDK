@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "YGQQSDK"
-  s.version      = "3.3.3"
-  s.summary      = "TencentOpenAPI v3.3.3"
+  s.version      = "3.3.7"
+  s.summary      = "TencentOpenAPI v3.3.7"
   s.description  = <<-DESC
-                    This pod is used who want to use tencentOpenAPI v3.3.3 with podfile.
+                    This pod is used who want to use tencentOpenAPI v3.3.7 with podfile.
                    DESC
   s.author       = 'http://open.qq.com'
   s.homepage     = 'http://open.qq.com'
