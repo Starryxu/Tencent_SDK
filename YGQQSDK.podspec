@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                     :file => "LICENSE"
                    }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/Starryxu/Tencent_SDK.git", :tag => s.version.to_s  }
+  s.source       = { :git => "https://github.com/xygkevin/Tencent_SDK.git", :tag => s.version.to_s  }
   s.frameworks              = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries               = 'iconv', 'sqlite3', 'stdc++', 'z'
   s.ios.vendored_frameworks = 'framework/TencentOpenAPI.framework'
