@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "10.0"
-
+    
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/xygkevin/YGSocialSDK.git", :tag => s.version.to_s }
+  spec.source       = { :git => "https://github.com/xygkevin/YGSocialSDK.git", :tag => spec.version.to_s  }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YGSocialSDK/APOpenAPI/*.{h,m}"
+  spec.source_files  = "YGSocialSDK/APOpenAPI/*.h"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,7 +134,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "WechatOpenSDK"
-  spec.dependency "Weibo_SDK"
+  # spec.dependency "WechatOpenSDK"
+  # spec.dependency "Weibo_SDK"
 
 end
