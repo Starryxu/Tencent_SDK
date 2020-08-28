@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = "Security", "SystemConfiguration", "CoreGraphics", "CoreTelephony", "WebKit"
-  spec.vendored_frameworks = "**/*.{a, framework}"
+  spec.vendored_frameworks = "**/*.framework"
 
   # spec.library   = "iconv"
   spec.libraries = "iconv", "sqlite3", "stdc++", "z"
