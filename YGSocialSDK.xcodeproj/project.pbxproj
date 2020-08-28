@@ -13,9 +13,6 @@
 		D3AEDC8624F90C9700DEE253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AEDC8524F90C9700DEE253 /* Assets.xcassets */; };
 		D3AEDC8924F90C9700DEE253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AEDC8724F90C9700DEE253 /* LaunchScreen.storyboard */; };
 		D3AEDC8C24F90C9700DEE253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AEDC8B24F90C9700DEE253 /* main.m */; };
-		D3AEDC9A24F90CEA00DEE253 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC9324F90CEA00DEE253 /* libAPOpenSdk.a */; };
-		D3AEDC9B24F90CEA00DEE253 /* AFServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC9724F90CEA00DEE253 /* AFServiceSDK.framework */; };
-		D3AEDC9C24F90CEA00DEE253 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC9924F90CEA00DEE253 /* TencentOpenAPI.framework */; };
 		D3AEDC9F24F90D1200DEE253 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC9E24F90D1200DEE253 /* CFNetwork.framework */; };
 		D3AEDCA124F90D1C00DEE253 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCA024F90D1C00DEE253 /* libc++.tbd */; };
 		D3AEDCA324F90D2100DEE253 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCA224F90D2100DEE253 /* libiconv.tbd */; };
@@ -46,11 +43,6 @@
 		D3AEDC8824F90C9700DEE253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AEDC8A24F90C9700DEE253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AEDC8B24F90C9700DEE253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3AEDC9324F90CEA00DEE253 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
-		D3AEDC9424F90CEA00DEE253 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
-		D3AEDC9524F90CEA00DEE253 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
-		D3AEDC9724F90CEA00DEE253 /* AFServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFServiceSDK.framework; sourceTree = "<group>"; };
-		D3AEDC9924F90CEA00DEE253 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D3AEDC9E24F90D1200DEE253 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D3AEDCA024F90D1C00DEE253 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		D3AEDCA224F90D2100DEE253 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -92,9 +84,6 @@
 				D3AEDCA324F90D2100DEE253 /* libiconv.tbd in Frameworks */,
 				D3AEDCA124F90D1C00DEE253 /* libc++.tbd in Frameworks */,
 				D3AEDC9F24F90D1200DEE253 /* CFNetwork.framework in Frameworks */,
-				D3AEDC9B24F90CEA00DEE253 /* AFServiceSDK.framework in Frameworks */,
-				D3AEDC9C24F90CEA00DEE253 /* TencentOpenAPI.framework in Frameworks */,
-				D3AEDC9A24F90CEA00DEE253 /* libAPOpenSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,9 +110,6 @@
 		D3AEDC7824F90C9200DEE253 /* YGSocialSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D3AEDC9624F90CEA00DEE253 /* AFServiceSDK */,
-				D3AEDC9224F90CEA00DEE253 /* APOpenAPI */,
-				D3AEDC9824F90CEA00DEE253 /* TencentOpenAPI */,
 				D3AEDC7924F90C9200DEE253 /* AppDelegate.h */,
 				D3AEDC7A24F90C9200DEE253 /* AppDelegate.m */,
 				D3AEDC7F24F90C9200DEE253 /* ViewController.h */,
@@ -135,32 +121,6 @@
 				D3AEDC8B24F90C9700DEE253 /* main.m */,
 			);
 			path = YGSocialSDK;
-			sourceTree = "<group>";
-		};
-		D3AEDC9224F90CEA00DEE253 /* APOpenAPI */ = {
-			isa = PBXGroup;
-			children = (
-				D3AEDC9324F90CEA00DEE253 /* libAPOpenSdk.a */,
-				D3AEDC9424F90CEA00DEE253 /* APOpenAPIObject.h */,
-				D3AEDC9524F90CEA00DEE253 /* APOpenAPI.h */,
-			);
-			path = APOpenAPI;
-			sourceTree = "<group>";
-		};
-		D3AEDC9624F90CEA00DEE253 /* AFServiceSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D3AEDC9724F90CEA00DEE253 /* AFServiceSDK.framework */,
-			);
-			path = AFServiceSDK;
-			sourceTree = "<group>";
-		};
-		D3AEDC9824F90CEA00DEE253 /* TencentOpenAPI */ = {
-			isa = PBXGroup;
-			children = (
-				D3AEDC9924F90CEA00DEE253 /* TencentOpenAPI.framework */,
-			);
-			path = TencentOpenAPI;
 			sourceTree = "<group>";
 		};
 		D3AEDC9D24F90D1200DEE253 /* Frameworks */ = {

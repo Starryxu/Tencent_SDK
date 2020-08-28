@@ -8,9 +8,6 @@
 
 #import "ViewController.h"
 
-#import "APOpenAPI.h"
-#import <AFServiceSDK/AFServiceSDK.h>
-#import <TencentOpenAPI/TencentOAuth.h>
 
 @interface ViewController ()
 
