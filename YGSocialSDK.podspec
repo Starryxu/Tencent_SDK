@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YGSocialSDK/APOpenAPI/*.h"
+  spec.source_files  = "APOpenAPI/*.h"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = "Security", "SystemConfiguration", "CoreGraphics", "CoreTelephony", "WebKit"
-  spec.vendored_frameworks = "TencentOpenAPI/TencentOpenAPI.framework"
+  spec.vendored_frameworks = "**/*.{a, framework}"
 
   # spec.library   = "iconv"
   spec.libraries = "iconv", "sqlite3", "stdc++", "z"
