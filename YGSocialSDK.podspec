@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   spec.libraries = "iconv", "sqlite3", "stdc++", "z"
-
+  spec.vendored_libraries  = "**/*.a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
