@@ -1,9 +1,9 @@
 //
 //  main.m
-//  ThirdQQSDK
+//  YGSocialSDK
 //
-//  Created by 许亚光 on 2020/1/19.
-//  Copyright © 2020 极速洞察. All rights reserved.
+//  Created by 许公子 on 2020/8/28.
+//  Copyright © 2020 北京聚思汇远科技有限公司. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
