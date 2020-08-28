@@ -13,7 +13,6 @@
 		D366FA6B23D3FE4900671A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D366FA6A23D3FE4900671A58 /* Assets.xcassets */; };
 		D366FA6E23D3FE4A00671A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D366FA6C23D3FE4A00671A58 /* LaunchScreen.storyboard */; };
 		D366FA7123D3FE4A00671A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D366FA7023D3FE4A00671A58 /* main.m */; };
-		D366FA7923D3FE7F00671A58 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA7823D3FE7F00671A58 /* TencentOpenAPI.framework */; };
 		D366FA7C23D3FE9400671A58 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA7B23D3FE9300671A58 /* Security.framework */; };
 		D366FA7E23D3FE9900671A58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA7D23D3FE9900671A58 /* CoreTelephony.framework */; };
 		D366FA8023D3FE9E00671A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA7F23D3FE9E00671A58 /* CoreGraphics.framework */; };
@@ -21,6 +20,10 @@
 		D366FA8423D3FEB900671A58 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA8323D3FEB900671A58 /* libsqlite3.tbd */; };
 		D366FA8623D3FEC800671A58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA8523D3FEC800671A58 /* libz.tbd */; };
 		D366FA8823D3FED300671A58 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FA8723D3FED300671A58 /* libiconv.tbd */; };
+		D3AEDC6424F907E300DEE253 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC6324F907E300DEE253 /* TencentOpenAPI.framework */; };
+		D3AEDC6824F9080200DEE253 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC6624F9080200DEE253 /* libAPOpenSdk.a */; };
+		D3AEDC6A24F9080E00DEE253 /* AFServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC6924F9080E00DEE253 /* AFServiceSDK.framework */; };
+		D3AEDC6C24F9084000DEE253 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDC6B24F9084000DEE253 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +37,6 @@
 		D366FA6D23D3FE4A00671A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D366FA6F23D3FE4A00671A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D366FA7023D3FE4A00671A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D366FA7823D3FE7F00671A58 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D366FA7B23D3FE9300671A58 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D366FA7D23D3FE9900671A58 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D366FA7F23D3FE9E00671A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,6 +44,12 @@
 		D366FA8323D3FEB900671A58 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D366FA8523D3FEC800671A58 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D366FA8723D3FED300671A58 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		D3AEDC6324F907E300DEE253 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D3AEDC6524F9080200DEE253 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
+		D3AEDC6624F9080200DEE253 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
+		D3AEDC6724F9080200DEE253 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
+		D3AEDC6924F9080E00DEE253 /* AFServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFServiceSDK.framework; sourceTree = "<group>"; };
+		D3AEDC6B24F9084000DEE253 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,14 +57,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AEDC6C24F9084000DEE253 /* libc++.tbd in Frameworks */,
+				D3AEDC6A24F9080E00DEE253 /* AFServiceSDK.framework in Frameworks */,
 				D366FA8823D3FED300671A58 /* libiconv.tbd in Frameworks */,
+				D3AEDC6424F907E300DEE253 /* TencentOpenAPI.framework in Frameworks */,
 				D366FA8623D3FEC800671A58 /* libz.tbd in Frameworks */,
 				D366FA8423D3FEB900671A58 /* libsqlite3.tbd in Frameworks */,
 				D366FA8223D3FEAE00671A58 /* SystemConfiguration.framework in Frameworks */,
 				D366FA8023D3FE9E00671A58 /* CoreGraphics.framework in Frameworks */,
+				D3AEDC6824F9080200DEE253 /* libAPOpenSdk.a in Frameworks */,
 				D366FA7E23D3FE9900671A58 /* CoreTelephony.framework in Frameworks */,
 				D366FA7C23D3FE9400671A58 /* Security.framework in Frameworks */,
-				D366FA7923D3FE7F00671A58 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +94,9 @@
 		D366FA5D23D3FE4700671A58 /* ThirdQQSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D366FA7723D3FE7F00671A58 /* framework */,
+				D3AEDC6224F9073500DEE253 /* AFServiceSDK */,
+				D3AEDC6124F9072100DEE253 /* APOpenAPI */,
+				D3AEDC6024F9071C00DEE253 /* TencentOpenAPI */,
 				D366FA5E23D3FE4700671A58 /* AppDelegate.h */,
 				D366FA5F23D3FE4700671A58 /* AppDelegate.m */,
 				D366FA6423D3FE4700671A58 /* ViewController.h */,
@@ -97,17 +110,10 @@
 			path = ThirdQQSDK;
 			sourceTree = "<group>";
 		};
-		D366FA7723D3FE7F00671A58 /* framework */ = {
-			isa = PBXGroup;
-			children = (
-				D366FA7823D3FE7F00671A58 /* TencentOpenAPI.framework */,
-			);
-			path = framework;
-			sourceTree = SOURCE_ROOT;
-		};
 		D366FA7A23D3FE9300671A58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3AEDC6B24F9084000DEE253 /* libc++.tbd */,
 				D366FA8723D3FED300671A58 /* libiconv.tbd */,
 				D366FA8523D3FEC800671A58 /* libz.tbd */,
 				D366FA8323D3FEB900671A58 /* libsqlite3.tbd */,
@@ -117,6 +123,32 @@
 				D366FA7B23D3FE9300671A58 /* Security.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AEDC6024F9071C00DEE253 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDC6324F907E300DEE253 /* TencentOpenAPI.framework */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		D3AEDC6124F9072100DEE253 /* APOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDC6724F9080200DEE253 /* APOpenAPI.h */,
+				D3AEDC6524F9080200DEE253 /* APOpenAPIObject.h */,
+				D3AEDC6624F9080200DEE253 /* libAPOpenSdk.a */,
+			);
+			path = APOpenAPI;
+			sourceTree = "<group>";
+		};
+		D3AEDC6224F9073500DEE253 /* AFServiceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDC6924F9080E00DEE253 /* AFServiceSDK.framework */,
+			);
+			path = AFServiceSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,13 +367,19 @@
 				DEVELOPMENT_TEAM = RTXZSWTQ6M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/framework",
+					"$(PROJECT_DIR)/TencentOpenAPI",
+					"$(PROJECT_DIR)/ThirdQQSDK/TencentOpenAPI",
+					"$(PROJECT_DIR)/ThirdQQSDK/AFServiceSDK",
 				);
 				INFOPLIST_FILE = ThirdQQSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdQQSDK/APOpenAPI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.insightworks.voice.ThirdQQSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,13 +395,19 @@
 				DEVELOPMENT_TEAM = RTXZSWTQ6M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/framework",
+					"$(PROJECT_DIR)/TencentOpenAPI",
+					"$(PROJECT_DIR)/ThirdQQSDK/TencentOpenAPI",
+					"$(PROJECT_DIR)/ThirdQQSDK/AFServiceSDK",
 				);
 				INFOPLIST_FILE = ThirdQQSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdQQSDK/APOpenAPI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.insightworks.voice.ThirdQQSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
