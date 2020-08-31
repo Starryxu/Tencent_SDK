@@ -30,6 +30,9 @@
 		D3AEDCBB24F90D9900DEE253 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCBA24F90D9900DEE253 /* JavaScriptCore.framework */; };
 		D3AEDCBD24F90D9F00DEE253 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCBC24F90D9F00DEE253 /* CoreMotion.framework */; };
 		D3AEDCBF24F90DA700DEE253 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCBE24F90DA700DEE253 /* ImageIO.framework */; };
+		D3AEDCC824FCB80100DEE253 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCC124FCB80100DEE253 /* libAPOpenSdk.a */; };
+		D3AEDCC924FCB80100DEE253 /* AFServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCC524FCB80100DEE253 /* AFServiceSDK.framework */; };
+		D3AEDCCA24FCB80100DEE253 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AEDCC724FCB80100DEE253 /* TencentOpenAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,12 @@
 		D3AEDCBA24F90D9900DEE253 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		D3AEDCBC24F90D9F00DEE253 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		D3AEDCBE24F90DA700DEE253 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D3AEDCC124FCB80100DEE253 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
+		D3AEDCC224FCB80100DEE253 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
+		D3AEDCC324FCB80100DEE253 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
+		D3AEDCC524FCB80100DEE253 /* AFServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFServiceSDK.framework; sourceTree = "<group>"; };
+		D3AEDCC724FCB80100DEE253 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D3AEDCCB24FCB82100DEE253 /* YGSocialSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGSocialSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +81,11 @@
 				D3AEDCBB24F90D9900DEE253 /* JavaScriptCore.framework in Frameworks */,
 				D3AEDCAD24F90D5B00DEE253 /* CoreTelephony.framework in Frameworks */,
 				D3AEDCB924F90D8C00DEE253 /* CoreText.framework in Frameworks */,
+				D3AEDCCA24FCB80100DEE253 /* TencentOpenAPI.framework in Frameworks */,
 				D3AEDCB724F90D8400DEE253 /* WebKit.framework in Frameworks */,
 				D3AEDCB524F90D7800DEE253 /* Photos.framework in Frameworks */,
 				D3AEDCB324F90D7300DEE253 /* PhotosUI.framework in Frameworks */,
+				D3AEDCC924FCB80100DEE253 /* AFServiceSDK.framework in Frameworks */,
 				D3AEDCB124F90D6F00DEE253 /* QuartzCore.framework in Frameworks */,
 				D3AEDCAF24F90D6100DEE253 /* CoreGraphics.framework in Frameworks */,
 				D3AEDCAB24F90D5400DEE253 /* Security.framework in Frameworks */,
@@ -82,6 +93,7 @@
 				D3AEDCA724F90D4100DEE253 /* libsqlite3.tbd in Frameworks */,
 				D3AEDCA524F90D2800DEE253 /* libz.tbd in Frameworks */,
 				D3AEDCA324F90D2100DEE253 /* libiconv.tbd in Frameworks */,
+				D3AEDCC824FCB80100DEE253 /* libAPOpenSdk.a in Frameworks */,
 				D3AEDCA124F90D1C00DEE253 /* libc++.tbd in Frameworks */,
 				D3AEDC9F24F90D1200DEE253 /* CFNetwork.framework in Frameworks */,
 			);
@@ -110,8 +122,12 @@
 		D3AEDC7824F90C9200DEE253 /* YGSocialSDK */ = {
 			isa = PBXGroup;
 			children = (
+				D3AEDCC424FCB80100DEE253 /* AFServiceSDK */,
+				D3AEDCC024FCB80100DEE253 /* APOpenAPI */,
+				D3AEDCC624FCB80100DEE253 /* TencentOpenAPI */,
 				D3AEDC7924F90C9200DEE253 /* AppDelegate.h */,
 				D3AEDC7A24F90C9200DEE253 /* AppDelegate.m */,
+				D3AEDCCB24FCB82100DEE253 /* YGSocialSDK.h */,
 				D3AEDC7F24F90C9200DEE253 /* ViewController.h */,
 				D3AEDC8024F90C9200DEE253 /* ViewController.m */,
 				D3AEDC8224F90C9200DEE253 /* Main.storyboard */,
@@ -146,6 +162,32 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		D3AEDCC024FCB80100DEE253 /* APOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDCC124FCB80100DEE253 /* libAPOpenSdk.a */,
+				D3AEDCC224FCB80100DEE253 /* APOpenAPIObject.h */,
+				D3AEDCC324FCB80100DEE253 /* APOpenAPI.h */,
+			);
+			path = APOpenAPI;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3AEDCC424FCB80100DEE253 /* AFServiceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDCC524FCB80100DEE253 /* AFServiceSDK.framework */,
+			);
+			path = AFServiceSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3AEDCC624FCB80100DEE253 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDCC724FCB80100DEE253 /* TencentOpenAPI.framework */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -365,6 +407,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/YGSocialSDK/AFServiceSDK",
 					"$(PROJECT_DIR)/YGSocialSDK/TencentOpenAPI",
+					"$(PROJECT_DIR)/AFServiceSDK",
+					"$(PROJECT_DIR)/TencentOpenAPI",
 				);
 				INFOPLIST_FILE = YGSocialSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -375,6 +419,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YGSocialSDK/APOpenAPI",
+					"$(PROJECT_DIR)/APOpenAPI",
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.insightworks.dddd;
@@ -393,6 +438,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/YGSocialSDK/AFServiceSDK",
 					"$(PROJECT_DIR)/YGSocialSDK/TencentOpenAPI",
+					"$(PROJECT_DIR)/AFServiceSDK",
+					"$(PROJECT_DIR)/TencentOpenAPI",
 				);
 				INFOPLIST_FILE = YGSocialSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -403,6 +450,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YGSocialSDK/APOpenAPI",
+					"$(PROJECT_DIR)/APOpenAPI",
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.insightworks.dddd;
